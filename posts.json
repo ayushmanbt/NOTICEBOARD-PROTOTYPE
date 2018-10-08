@@ -1,0 +1,23 @@
+{
+    "response": [
+        {
+            "id": "26981332F",
+            "content": "This is our very first post",
+            "author": "Ayushman Bilas Thakur",
+            "date": "10/10/2018"
+        },
+        {
+            "id": "269123432Q",
+            "content": "This is our second post",
+            "author": "John Doe",
+            "date": "09/10/2018"
+        },
+        {
+            "id": "26981332F",
+            "content": "This is the third post",
+            "author": "Legendd",
+            "date": "15/10/2018"
+        }
+    ]
+    
+}

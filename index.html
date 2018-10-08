@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NOTICE BOARD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>NOTICES</h1>
+    </div>
+    <div class="container">
+        <ul class = "shouts" id="main">
+            
+        </ul>
+        <form onsubmit= "su(event)" id = "new">
+            <textarea name="post" id="post" placeholder="Write your announcement here!"></textarea>
+            <input type="text" name="author" id="author" placeholder="Who are you actually?">
+            <input type="submit" name="submit" value="SUBMIT" id="submit">
+        </form>
+    </div>
+    <div class="footer">
+        <p>&copy;AYUSHMAN001</p>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyD0_61dPUyd7B448w7pGw0Y8BpmDTAhzHE",
+            authDomain: "notice-board-cc982.firebaseapp.com",
+            databaseURL: "https://notice-board-cc982.firebaseio.com",
+            projectId: "notice-board-cc982",
+            storageBucket: "notice-board-cc982.appspot.com",
+            messagingSenderId: "646707322322"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
